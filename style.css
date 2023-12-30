@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.home {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+}
+
+.sc img {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    filter: blur(5px);
+    position: relative;
+}
+
+.sc p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0 0 5px black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.icon {
+    position: absolute;
+    top: 110px;
+    left: 430px;
+}
+
+.icon-content {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.icon-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.ri-money-dollar-box-line {
+    position: absolute;
+    top: -30px;
+    font-size: 70px;
+    left: -100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ri-money-dollar-box-line:hover {
+    background-color: aquamarine;
+}
+
+.ri-emotion-happy-line {
+    position: absolute;
+    top: -30px;
+    font-size: 70px;
+    right: -85px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ri-emotion-happy-line:hover {
+    background-image: linear-gradient(rgb(249, 249, 140), rgb(143, 143, 255));
+}
+
+.ri-sun-fill {
+    position: absolute;
+    top: 250px;
+    font-size: 70px;
+    right: -85px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ri-sun-fill:hover {
+    background-image: linear-gradient(yellow, orange);
+}
+
+.ri-home-7-fill {
+    position: absolute;
+    top: 250px;
+    font-size: 70px;
+    left: -100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ri-home-7-fill:hover {
+    background-image: linear-gradient(white, rgb(142, 142, 142));
+}
