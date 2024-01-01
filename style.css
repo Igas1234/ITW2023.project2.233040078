@@ -142,6 +142,25 @@
 }
 
 
+.footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-footer {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    width: 200px;
+}
 
 
 
@@ -161,4 +180,5 @@
         padding-left: 30px;
     }
 
+    #kontak-saya {}
 }
