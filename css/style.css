@@ -163,6 +163,85 @@
 }
 
 
+.tentang-kami {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+}
+
+
+/* text ketik */
+
+
+
+.ketik {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 530px;
+    top: 100px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.ketik .text {
+    position: relative;
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ketik .text.first-text {
+    color: white;
+}
+
+
+.order {
+    margin-top: 40px;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.order a {
+    text-decoration: none;
+    color: white;
+}
+
+.text.sec-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    width: 3000px;
+    border-left: 2px solid blue;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
 
 @media screen and (max-width: 576px) {
     .icon-content a {
@@ -180,5 +259,23 @@
         padding-left: 30px;
     }
 
-    #kontak-saya {}
+    #order-sekarang {
+        left: 40px;
+    }
+
+    #kami {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tentang-kami {
+        overflow: hidden;
+        width: 300px;
+    }
+
+    .ketik {
+        left: 150px;
+    }
 }
